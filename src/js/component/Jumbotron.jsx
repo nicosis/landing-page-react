@@ -3,7 +3,7 @@ import "/workspace/react-hello/src/styles/index.css";
 
 const jumbotron = () => {
   return (
-    <div className="m-3">
+    <div className="" style={{ margin: "10px" }}>
       <div className="container-fluid py-5 px-4 backGreyColor">
         <h1 className="display-5 fw-bold">A Matrix Welcome!</h1>
         <p className="col-md fs-4">

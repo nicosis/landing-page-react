@@ -14,12 +14,14 @@
 .card-flex {
   display: flex;
   flex-direction: row;
-  /* justify-content: center; */
+  justify-content: space-between;
 }
 
 @media (max-width: 800px) {
   .card-flex {
     flex-direction: column;
-    /* justify-content: center; */
+  }
+  #card-centered {
+    margin: auto;
   }
 }

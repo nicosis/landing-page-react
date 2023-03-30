@@ -11,13 +11,29 @@ const Home = () => {
     <div>
       <Navbar />
       <Jumbotron />
-      <div className="card-flex">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+      <div className="card-flex" style={{ margin: "10px" }}>
+        <Card
+          url="https://picsum.photos/500/325?random=1"
+          title="El café gigante del pulpo"
+          description="Un pulpo gigante disfrutando de un café en una taza del tamaño de una piscina."
+        />
+        <Card
+          url="https://picsum.photos/500/325?random=2"
+          title="La llama ciclista con estilo"
+          description="Una llama montando en bicicleta con gafas de sol y una gorra de béisbol."
+        />
+        <Card
+          url="https://picsum.photos/500/325?random=3"
+          title="El elefante con paraguas en la ducha"
+          description="Un elefante tomando una ducha con una manguera mientras sostiene un paraguas."
+        />
+        <Card
+          url="https://picsum.photos/500/325?random=4"
+          title="El gorila de negocios en el parque"
+          description="Un gorila vestido con un traje y corbata leyendo el periódico en un banco del parque."
+        />
       </div>
-    <Footer />
+      <Footer />
     </div>
   );
 };

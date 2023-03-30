@@ -1,19 +1,18 @@
 import React from "react";
 import "/workspace/react-hello/src/styles/index.css";
 
-const Card = () => {
+const Card = (props) => {
   return (
-    <div className="card card-width mt-2" style={{ margin: "auto" }}>
+    <div className="card card-width mt-2" id="card-centered">
       <img
-        src="https://picsum.photos/500/325"
+        src={props.url}
         className="card-img-top"
         alt="..."
       />
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
+        <h5 className="card-title">{props.title}</h5>
         <p className="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          {props.description}
         </p>
         <a href="#" className="btn btn-primary">
           Go somewhere
@@ -22,5 +21,7 @@ const Card = () => {
     </div>
   );
 };
+
+
 
 export default Card;
