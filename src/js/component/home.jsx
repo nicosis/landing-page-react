@@ -11,7 +11,7 @@ const Home = () => {
     <div>
       <Navbar />
       <Jumbotron />
-      <div className="card-flex" style={{ margin: "10px" }}>
+      <div className="card-flex margin-content">
         <Card
           url="https://picsum.photos/500/325?random=1"
           title="El café gigante del pulpo"

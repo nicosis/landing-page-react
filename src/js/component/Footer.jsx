@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <nav className="navbar navbar-dark bg-dark">
       <div className="container-fluid justify-content-center py-4">
-        <span className="navbar-brand">Copyright © nicosis 2023</span>
+        <span className="navbar-brand fs-6">Copyright © nicosis 2023</span>
       </div>
     </nav>
   );
