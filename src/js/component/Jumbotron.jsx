@@ -3,16 +3,19 @@ import "/workspace/react-hello/src/styles/index.css";
 
 const jumbotron = () => {
   return (
-    <div className="container-fluid py-5 backGreyColor">
-      <h1 className="display-5 fw-bold">A Warm Welcome!</h1>
-      <p className="col-md-8 fs-4">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
-        debitis. Suscipit ipsam consequuntur nesciunt a soluta, voluptatem illo
-        laudantium saepe.
-      </p>
-      <button className="btn btn-primary btn-lg" type="button">
-        Call to action!
-      </button>
+    <div className="m-3">
+      <div className="container-fluid py-5 px-4 backGreyColor">
+        <h1 className="display-5 fw-bold">A Matrix Welcome!</h1>
+        <p className="col-md fs-4">
+          "What you know you can't explain, but you feel it. You've felt it your
+          entire life, that there's something wrong with the world. You don't
+          know what it is, but it's there, like a splinter in your mind, driving
+          you mad." - Morpheus
+        </p>
+        <button className="btn btn-primary btn-lg" type="button">
+          Call to action!
+        </button>
+      </div>
     </div>
   );
 };

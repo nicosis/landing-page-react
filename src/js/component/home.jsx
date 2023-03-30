@@ -10,15 +10,13 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-	  <div className="content">
       <Jumbotron />
-      <div className="flex">
+      <div className="card-flex">
         <Card />
         <Card />
         <Card />
         <Card />
       </div>
-    </div>
     <Footer />
     </div>
   );
