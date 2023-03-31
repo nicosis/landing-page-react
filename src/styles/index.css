@@ -20,14 +20,16 @@ body {
 .card-flex {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .card-flex {
-    flex-direction: column;
+    justify-content: center;
+    /* flex-direction: column; */
   }
-  #card-centered {
+/*   #card-centered {
     margin: auto;
-  }
+  } */
 }
