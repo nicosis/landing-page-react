@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid mx-3">
         <a className="navbar-brand" href="#">
-          Start Bootstrap
+          Start Matrix
         </a>
         <button
           className="navbar-toggler"
