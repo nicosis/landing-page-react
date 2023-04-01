@@ -1,20 +1,23 @@
 /* import 'relative/path/to/stylesheet.scss'; */
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Fira Code', monospace;
 }
+
 body {
-  background-color: #35BD00;
+  background-color: #000000;
 }
-.backLightGreenColor {
-  background-color: #89FF5A;
+
+.lightGreen {
+  background-color: #2BE10E;
+  color: #000000;
 }
 
 .margin-content {
-  margin: 20px 30px 20px 30px;
+  margin: 20px 30px;
 }
 
 .card-width {
-  width: 20rem;
+  width: 19.5rem;
 }
 
 .card-flex {
@@ -24,12 +27,6 @@ body {
   flex-wrap: wrap;
 }
 
-@media (max-width: 700px) {
-  .card-flex {
-    justify-content: center;
-    /* flex-direction: column; */
-  }
-/*   #card-centered {
-    margin: auto;
-  } */
+.card-img-top {
+  height: 400px;
 }

@@ -3,7 +3,7 @@ import "/workspace/react-hello/src/styles/index.css";
 
 const Card = (props) => {
   return (
-    <div className="card text-bg-light card-width mt-2" id="card-centered">
+    <div className="card text-bg-light card-width mt-2">
       <img src={props.url} className="card-img-top" alt="..." />
       <div className="card-body">
         <h5 className="card-title">{props.title}</h5>

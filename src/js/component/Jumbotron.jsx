@@ -4,7 +4,7 @@ import "/workspace/react-hello/src/styles/index.css";
 const jumbotron = () => {
   return (
     <div className="margin-content">
-      <div className="container-fluid py-5 px-4 backLightGreenColor">
+      <div className="container-fluid py-5 px-4 lightGreen">
         <h1 className="display-5 fw-bold">A Matrix Welcome!</h1>
         <p className="col-md fs-4">
           "What you know you can't explain, but you feel it. You've felt it your
